@@ -67,8 +67,9 @@ body {
   z-index: 102;
 }
 
-#nav img {
-  height: 27px;
+#nav h1 {
+  font-weight: 500;
+  font-size: 2.25vw;
 }
 
 #nav-part2 {
@@ -126,6 +127,7 @@ body {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
+  border-radius: 1vw;
 }
 
 .page2 {
@@ -175,24 +177,4 @@ body {
   color: #ffffff;
   margin-top: 2rem;
   font-size: 1.5rem;
-}
-
-.footer {
-  height: 100px;
-  padding: 0 20px;
-  border-top: 2px solid #dadada;
-  background-color: #f8f8f8;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-content {
-  width: 100%;
-}
-
-.footer p {
-  margin: 0;
-  color: #333;
 }
